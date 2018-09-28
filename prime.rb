@@ -6,7 +6,7 @@ def prime?(number)
     array << num
   end
   array.each do |element|
-  if number % element == 0
+  if number % element == 0 || number == -1
   is_prime = false
   end
   end
